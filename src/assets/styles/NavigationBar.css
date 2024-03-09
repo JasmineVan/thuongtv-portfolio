@@ -1,0 +1,36 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A0B2E;
+    width: 100vw;
+    height: 60px;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-list li {
+   display: inline-block; 
+   margin-right: 48px;
+}
+
+.nav-list a {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    color: #7127BA;
+}
+
+.name {
+    color: white;
+    margin-left: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serifs;
+}

@@ -1,0 +1,51 @@
+.holder {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    background: linear-gradient(to right, #200d3f, #11071f, black);;
+}
+
+.static-holder {
+    display: flex;
+    align-items: center;
+}
+
+.circle-frame {
+    width: 600px; 
+    height: 600px; 
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #ff69b47f;
+    border: 5px solid black; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 160px;
+    display: block;
+  }
+  
+.profile-picture {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.main-title {
+    margin-left: 160px;
+}
+
+.title-hello {
+    font-size: 50px;
+    color: white;
+    display: inline-block; 
+}
+
+.title-name {
+    font-size: 50px;
+    color: #7127BA;
+    display: inline-block; 
+}

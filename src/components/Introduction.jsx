@@ -58,7 +58,7 @@ const Introduction = () => {
             <div className="circle-frame">
                 <img
                     className="profile-picture"
-                    src="https://github.com/JasmineVan/ThuongTV_Portfolio/blob/main/src/assets/images/profile.jpg"
+                    src="./assets/images/profile.JPG"
                     alt="Profile"
                 />
             </div>

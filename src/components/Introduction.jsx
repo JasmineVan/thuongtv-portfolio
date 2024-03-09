@@ -58,7 +58,7 @@ const Introduction = () => {
             <div className="circle-frame">
                 <img
                     className="profile-picture"
-                    src="src\assets\images\profile.jpg"
+                    src="./assets/images/profile.jpg"
                     alt="Profile"
                 />
             </div>

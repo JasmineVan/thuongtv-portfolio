@@ -45,9 +45,16 @@ const Introduction = () => {
                     repeat={Infinity}
                 />
                 <div className="static-holder"></div>
-                    <h2 className="title-hello">Greetings, I am</h2>
-                    <h2 className="title-name">THUONG TRINH VAN</h2>
-                </div>
+                <h2 className="title-hello">Greetings, I am</h2>
+                <h2 className="title-name">THUONG TRINH VAN</h2>
+                <p className="content">
+                    A dynamic and passionate software developer who embarked on a transformative journey into the world of technology. Having earned my degree from Ton Duc Thang University, I have honed my skills and knowledge in the ever-evolving realm of software development.
+
+                    Throughout my academic and professional endeavors, I have embraced the challenges of translating innovative ideas into tangible solutions. My commitment to staying at the forefront of technological advancements has empowered me to create robust and efficient software that addresses real-world needs.
+
+                    This portfolio serves as a testament to my proficiency in coding, problem-solving, and my dedication to delivering high-quality software solutions. Join me as I showcase my projects, skills, and the journey that has shaped me into the software developer I am today.
+                </p>
+            </div>
             <div className="circle-frame">
                 <img
                     className="profile-picture"

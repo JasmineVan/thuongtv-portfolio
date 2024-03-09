@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    height: 1000px;
     background: linear-gradient(to right, #200d3f, #11071f, black);;
 }
 
@@ -48,4 +49,11 @@
     font-size: 50px;
     color: #7127BA;
     display: inline-block; 
+}
+
+.content {
+    color: white;
+    max-width: 1000px;
+    text-align: justify;
+    font-size: 28px;
 }

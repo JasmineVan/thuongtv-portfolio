@@ -18,7 +18,7 @@ function App() {
       link: 'https://example.com/demo1'
     },
     {
-      image: './src/assets/images/projects/pj22.png',
+      image: '/images/projects/pj22.png',
       title: 'Coffee Roastery',
       time: '2022',
       description: 'An e-commerce platform dedicated to artisanal coffee roasting. This project showcases a range of coffee beans sourced from around the world, complete with detailed tasting notes and brewing recommendations. Customers can subscribe for regular deliveries or purchase one-time bags, with a focus on sustainability and direct trade practices.',
@@ -27,7 +27,7 @@ function App() {
       link: 'https://example.com/demo2'
     },
     {
-      image: './src/assets/images/projects/pj33.png',
+      image: '/images/projects/pj33.png',
       title: 'CleverTap',
       time: '2023',
       description: 'An integration project with CleverTap, a leading customer engagement and analytics platform. This project involved implementing CleverTap\’s SDK into a mobile application, enabling real-time user engagement through personalized notifications, targeted campaigns, and comprehensive analytics to optimize user retention and growth.',
@@ -36,7 +36,7 @@ function App() {
       link: 'https://example.com/demo2'
     },
     {
-      image: './src/assets/images/projects/pj44.jpg',
+      image: '/images/projects/pj44.jpg',
       title: 'Japan Real Estate',
       time: '2023',
       description: 'An integration project with CleverTap, a leading customer engagement and analytics platform. This project involved implementing CleverTap\’s SDK into a mobile application, enabling real-time user engagement through personalized notifications, targeted campaigns, and comprehensive analytics to optimize user retention and growth.',
@@ -45,7 +45,7 @@ function App() {
       link: 'https://example.com/demo2'
     },
     {
-      image: './src/assets/images/projects/pj55.jpg',
+      image: '/images/projects/pj55.jpg',
       title: 'Aquatics HUB',
       time: '2024',
       description: 'The Aquatic Hub is a modern facility focused on providing a variety of aquatic activities for all ages. It includes multiple swimming pools for lessons, fitness classes, and recreational use. The hub also emphasizes water safety education, offering programs that teach essential swimming skills and promote healthy, active lifestyles within the community.',
@@ -54,7 +54,7 @@ function App() {
       link: 'https://example.com/demo2'
     },
     {
-      image: './src/assets/images/projects/pj66.png',
+      image: '/images/projects/pj66.png',
       title: 'Motorcycle Retail Store',
       time: '2024',
       description: 'An online retail store specializing in motorcycle parts and accessories. This project includes a user-friendly interface for browsing products, detailed descriptions, customer reviews, and a secure checkout process. The platform also offers a blog with maintenance tips, riding safety advice, and the latest industry news.',

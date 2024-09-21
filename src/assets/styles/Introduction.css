@@ -1,13 +1,12 @@
 .holder {
-    position: fixed;
-    top: 60px;
-    left: 0;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    /* width: 100vw; */
     height: 1000px;
-    background: linear-gradient(to right, #200d3f, #11071f, black);;
+    background: linear-gradient(to right, #200d3f, #11071f, black);
+    padding: 40px;
 }
 
 .static-holder {
@@ -18,16 +17,14 @@
 .circle-frame {
     width: 600px; 
     height: 600px; 
-    overflow: hidden;
     border-radius: 50%;
-    background-color: #ff69b47f;
     border: 5px solid black; 
     margin-top: 40px;
     margin-bottom: 40px;
     margin-right: 120px;
     display: block;
-  }
-  
+}
+
 .profile-picture {
     width: 100%;
     height: auto;
@@ -36,7 +33,8 @@
 }
 
 .main-title {
-    margin-left: 120px;
+    margin-left: 60px;
+    padding-right: 60px;
 }
 
 .title-hello {
@@ -51,9 +49,43 @@
     display: inline-block; 
 }
 
+.title-role {
+    font-size: 24px; 
+    color: #836d98; 
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
 .content {
     color: white;
     max-width: 1000px;
     text-align: justify;
     font-size: 28px;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro-group-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 40px;
+    align-items: center;
+}
+
+.intro-group-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0.5;
+    margin-right: 80px;
 }

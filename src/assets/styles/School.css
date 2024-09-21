@@ -1,0 +1,32 @@
+.school-container {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #200d3f, #11071f, black);
+    color: white; 
+    z-index: 1; 
+    height: 1000px;
+}
+
+.school-title{
+    font-size: 28px;
+}
+
+.school-time {
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 10px;
+}
+
+.school-description {
+    font-size: 28px;
+}
+
+.school-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,124 @@
+.work-experience-card {
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #200d3f, #11071f, black);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; 
+    height: 2000px;
+}
+
+.centered-info {
+    margin-bottom: 20px; /* Space between info and description */
+}
+
+.time {
+    font-size: 20px;
+    color: #ccc;
+}
+
+.company-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.job-title {
+    font-size: 24px;
+    color: #836d98; /* Default text color */
+}
+
+.description {
+    font-size: 28px;
+    color: white;
+    margin: 10px 0;
+}
+
+.spotlight-projects-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 0;
+    color: #7127BA;
+}
+
+.spotlight-projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 10px; /* Space between grid items */
+    margin-top: 10px; /* Space above the grid */
+    width: 100%;
+}
+
+.project-item {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border: 1px solid #ddd; /* Border around each project */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center; /* Center text in each project */
+}
+
+.project-image {
+    width: 100%; /* Full width */
+    height: 50%; /* Maintain aspect ratio */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.project-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px; /* Margin for spacing */
+}
+
+.project-time {
+    font-size: 20px;
+    color: #666; /* Lighter color for the time */
+}
+
+.project-description {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0; /* Margin for spacing */
+    text-align: justify;
+}
+
+.demo-link {
+    color: #7127BA; /* Link color */
+    text-decoration: none; /* No underline */
+    font-weight: bold;
+    display: flex; /* Center icon and text */
+    justify-content: flex-end;
+    align-items: center; /* Align items */
+}
+
+.demo-link svg {
+    margin-left: 5px; /* Space between text and icon */
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    margin: 10px 0;
+}
+
+.tech-item {
+    background-color: rgba(113, 39, 186, 0.2); /* Light background */
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 2px; /* Space between items */
+    font-size: 14px;
+    color: white; /* Text color */
+}
+
+.tech-demo-container {
+    display: flex;
+    flex-direction: column; /* Stack tech stack and link vertically */
+    align-items: center; /* Center items */
+    margin-top: auto; /* Push to the bottom of the card */
+}
+
+

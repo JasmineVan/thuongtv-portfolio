@@ -21,7 +21,7 @@ const ParticlesComponent = (props) => {
       interactivity: {
         events: {
           onClick: {
-            enable: true, // enables the click event
+            enable: false, // enables the click event
             mode: "push", // adds the particles on click
           },
           onHover: {
@@ -39,6 +39,9 @@ const ParticlesComponent = (props) => {
         },
       },
       particles: {
+        number:{
+          value: 50,
+        },
         links: {
           enable: true, // enabling this will make particles linked together
           distance: 200, // maximum distance for linking the particles

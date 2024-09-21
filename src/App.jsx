@@ -9,7 +9,7 @@ import Delimiter from './components/Delimiter';
 function App() {
   const projects = [
     {
-      image: './src/assets/images/projects/pj11.png',
+      image: './images/projects/pj11.png',
       title: 'Dog Park',
       time: '2022',
       description: 'The Dog Park project is a community-oriented space designed for dogs and their owners to socialize and play. It features designated areas for small and large dogs, agility equipment for exercise, and plenty of shaded spots for relaxation. The park hosts regular events, including training workshops and social meetups, fostering a vibrant community of dog lovers.',

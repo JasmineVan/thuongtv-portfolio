@@ -71,7 +71,7 @@ function App() {
       <Introduction />
       <Delimiter title="Education" />
       <School />
-      <Delimiter title="Expreience" />
+      <Delimiter title="Experience" />
       <WorkExperience
         time="2022-06-01"
         company="Hoang Thanh Capital & Partners"

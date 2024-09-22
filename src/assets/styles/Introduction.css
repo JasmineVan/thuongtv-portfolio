@@ -3,10 +3,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 100vw; */
     height: 1000px;
     background: linear-gradient(to right, #200d3f, #11071f, black);
-    padding: 40px;
+    padding: 20px; /* Reduced padding */
 }
 
 .static-holder {
@@ -15,13 +14,13 @@
 }
 
 .circle-frame {
-    width: 600px; 
-    height: 600px; 
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
-    border: 5px solid black; 
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 120px;
+    border: 5px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 60px; /* Reduced margin */
     display: block;
 }
 
@@ -33,31 +32,30 @@
 }
 
 .main-title {
-    margin-left: 60px;
-    padding-right: 60px;
+    margin-left: 30px;
+    padding-right: 30px;
 }
 
 .title-hello {
     font-size: 50px;
     color: white;
-    display: inline-block; 
+    display: inline-block;
 }
 
 .title-name {
     font-size: 50px;
     color: #7127BA;
-    display: inline-block; 
+    display: inline-block;
 }
 
 .title-role {
-    font-size: 24px; 
-    color: #836d98; 
+    font-size: 24px;
+    color: #836d98;
     border-radius: 5px;
     padding: 5px 10px;
     margin-left: 10px;
     font-weight: bold;
 }
-
 
 .content {
     color: white;
@@ -78,7 +76,7 @@
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding-left: 40px;
+    padding-left: 20px;
     align-items: center;
 }
 
@@ -87,5 +85,115 @@
     justify-content: center;
     align-items: center;
     flex: 0.5;
-    margin-right: 80px;
+    margin-right: 40px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 1200px) {
+    .circle-frame {
+        width: 450px;
+        height: 450px;
+    }
+
+    .main-title {
+        margin-left: 20px;
+        padding-right: 20px;
+    }
+
+    .title-hello,
+    .title-name {
+        font-size: 40px;
+    }
+
+    .title-role {
+        font-size: 20px;
+    }
+
+    .content {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .holder {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px; /* Reduced padding for mobile */
+        height: auto;
+    }
+
+    .circle-frame {
+        width: 300px;
+        height: 300px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .main-title {
+        margin-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+    }
+
+    .title-hello,
+    .title-name {
+        font-size: 35px;
+    }
+
+    .title-role {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .content {
+        font-size: 18px;
+        max-width: 90%;
+    }
+
+    .intro-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro-group-1,
+    .intro-group-2 {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro-group-1 {
+        padding-left: 0;
+    }
+
+    .intro-group-2 {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .circle-frame {
+        width: 200px;
+        height: 200px;
+    }
+
+    .title-hello,
+    .title-name {
+        font-size: 30px;
+    }
+
+    .title-role {
+        font-size: 16px;
+    }
+
+    .content {
+        font-size: 16px;
+        max-width: 85%; /* More compact width */
+    }
+
+    .holder {
+        padding: 10px; /* Further reduced padding for small screens */
+    }
 }

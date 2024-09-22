@@ -1,17 +1,19 @@
 .school-container {
-    position: relative; 
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: linear-gradient(to right, #200d3f, #11071f, black);
-    color: white; 
-    z-index: 1; 
+    color: white;
+    z-index: 1;
     height: 1000px;
+    padding: 20px; /* Add padding for better spacing on smaller screens */
 }
 
-.school-title{
+.school-title {
     font-size: 28px;
+    margin-bottom: 15px; /* Add margin for better spacing */
 }
 
 .school-time {
@@ -22,6 +24,8 @@
 
 .school-description {
     font-size: 28px;
+    text-align: center; /* Center text for a more readable layout */
+    max-width: 800px; /* Set max width to prevent text from stretching too wide */
 }
 
 .school-logo {
@@ -30,3 +34,62 @@
     margin-bottom: 20px;
 }
 
+/* Responsive Design */
+@media only screen and (max-width: 1200px) {
+    .school-title {
+        font-size: 24px; /* Slightly reduce the font size for tablets */
+    }
+
+    .school-description {
+        font-size: 24px;
+        max-width: 600px;
+    }
+
+    .school-logo {
+        width: 130px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .school-container {
+        padding: 15px; /* Reduce padding for smaller screens */
+        height: auto; /* Adjust height to allow content flow */
+    }
+
+    .school-title {
+        font-size: 22px; /* Further reduce the title size for mobile */
+    }
+
+    .school-time {
+        font-size: 18px; /* Adjust time font size */
+    }
+
+    .school-description {
+        font-size: 20px;
+        max-width: 90%; /* Allow more space for the content to fit better */
+    }
+
+    .school-logo {
+        width: 100px; /* Scale down the logo */
+        margin-bottom: 15px; /* Adjust margin for better spacing */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .school-title {
+        font-size: 20px;
+    }
+
+    .school-time {
+        font-size: 16px;
+    }
+
+    .school-description {
+        font-size: 18px;
+        max-width: 85%;
+    }
+
+    .school-logo {
+        width: 80px; /* Even smaller logo for very small screens */
+    }
+}

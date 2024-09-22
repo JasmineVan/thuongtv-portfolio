@@ -21,7 +21,6 @@ const WorkExperience = ({ time, company, title, description, projects }) => {
                         <img src={project.image} alt={project.title} className="project-image" />
                         <h6 className="project-title">{project.title}</h6>
                         <div className="project-time">{project.time}</div>
-                        <p className="project-description">{project.description}</p>
                         <div className="tech-demo-container">
                             <div className="tech-stack">
                                 {project.techStack.map((tech, i) => (
@@ -32,6 +31,7 @@ const WorkExperience = ({ time, company, title, description, projects }) => {
                                 <FaLink />
                             </a> */}
                         </div>
+                        <p className="project-description">{project.description}</p>
                     </div>
                 ))}
             </div>

@@ -1,12 +1,23 @@
 import './App.css';
+import React, { useEffect, useState } from 'react';
 import Particles from './components/Particle';
-import NavigationBar from './components/NavigationBar';
 import Introduction from './components/Introduction';
 import School from './components/School';
 import WorkExperience from './components/WorkExperience';
 import Delimiter from './components/Delimiter';
 
 function App() {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   const projects = [
     {
       image: './images/projects/pj11.png',
@@ -66,8 +77,8 @@ function App() {
 
   return (
     <div className="App">
-      <Particles id="tsparticles" />
-      <NavigationBar />
+      {windowWidth > 768 && <Particles id="tsparticles" />}
+      {/* <NavigationBar /> */}
       <Introduction />
       <Delimiter title="Education" />
       <School />
@@ -79,7 +90,7 @@ function App() {
         description="As a skilled backend developer, I specialize in crafting innovative applications that cater to diverse industries. My experience with Hoang Thanh Capital & Partners has honed my abilities to deliver tailored solutions for projects."
         projects={projects}
       />
-      {/* <Delimiter title="My showcases" /> */}
+      <Delimiter title="My showcases" />
     </div>
   );
 }

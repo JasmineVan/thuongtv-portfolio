@@ -34,7 +34,7 @@ const Introduction = () => {
                         />
                     </div>
                     <h2 className="title-hello">Greetings, I am</h2>
-                    <h2 className="title-name">THUONG TRINH VAN</h2>
+                    <h2 className="title-name">TRINH VAN THUONG</h2>
                     <span className="title-role"> - Backend Developer -</span>
                     <p className="content">
                         "A dynamic and passionate software developer who embarked on a transformative journey into the world of technology."

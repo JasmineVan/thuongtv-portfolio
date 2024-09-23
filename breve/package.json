@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "thuongtv-portfolio": "file:.."
+  }
+}
